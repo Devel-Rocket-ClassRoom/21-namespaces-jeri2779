@@ -6,12 +6,15 @@
 
 **요구사항**
 
-1. `MyGame.Characters` 네임스페이스에 `Player` 클래스와 `Enemy` 클래스 정의
+
+1. `MyGame.Characters` 네임스페이스에 `Player` 클래스와 
+1. `Enemy` 클래스 정의
    - `Player` 클래스: `Name` 필드와 `Attack()` 메서드
    - `Enemy` 클래스: `Type` 필드와 `TakeDamage()` 메서드
 
 2. `MyGame.Items` 네임스페이스에 `Weapon` 클래스와 `Potion` 클래스 정의
-   - `Weapon` 클래스: `Name` 필드와 `GetDamage()` 메서드
+   - `Weapon` 클래스: `Name` 필드와 `GetDamage()`
+	- 메서드
    - `Potion` 클래스: `Name` 필드와 `Use()` 메서드
 
 3. 메인 프로그램에서:
